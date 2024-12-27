@@ -6,7 +6,7 @@ export const Hero = () => {
   style={{
     backgroundImage:`url(${StarsBg.src})`
   }}
-  className="text-white h-[492px] flex items-center relative overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)] md:h-[800px]" >
+  className="text-white h-[492px] flex items-center relative overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_20%,black_80%,transparent)] md:h-[800px]" >
 
   <div className="absolute inset-0 bg-[radial-gradient(75%_75%_at_center_center,rgb(140,69,255,.5)_15%,rgb(14,0,36,.5)_70%,transparent)]"></div>
 
