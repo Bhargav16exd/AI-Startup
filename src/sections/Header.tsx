@@ -3,9 +3,9 @@ import Menu from "@/assets/icon-menu.svg"
 
 export const Header = () => {
 
-  return <header className="bg-black  text-white md:py-4">
+  return <header className="text-white md:py-4 sticky top-0 z-10">
 
-    <div className="container flex justify-between items-center max-w-2xl border-b border-white/20 py-4 md:border md:rounded-xl ">
+    <div className="container flex justify-between items-center max-w-2xl border-b border-white/20 py-4 md:border md:rounded-xl backdrop-blur ">
 
       
       <div>
