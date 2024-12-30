@@ -36,29 +36,33 @@ export const Testimonials = () => {
 
     <div className="container">
 
-        <h1 className="font-medium text-5xl tracking-tighterj text-center">
+        <h1 className="font-medium text-5xl tracking-tighterj text-center md:text-6xl">
           Beyond Expectations
         </h1>
-
-        <p className="py-5 text-white/70 text-lg tracking-tight text-center ">
-        Our revolutionary AI SEO tools have transformed our clients' strategies.
-        </p>
+        
+        <div className="flex justify-center">
+          <p className="text-center max-w-96 py-5 text-white/70 text-lg tracking-tight  md:text-xl ">
+          Our revolutionary AI SEO tools have transformed our clients' strategies.
+          </p>
+        </div>
+       
 
         {/* Outer Div that handles Blur and Scroll */}
-        <div className="pt-10">
+        <div className="pt-10 ">
         
-          <div className="flex gap-5 border">
+          <div className="flex gap-5 h-[196px] w-[320px] md:h-[248px] md:w-[440px]">
 
             {
               testimonials.map((testimonial,index)=>(
 
-                <div key={index} className="p-6 border border-white/15 rounded-xl bg-[linear-gradient(to_bottom_left,rgb(140,49,255,.4),black)] flex-none  ">
+                <div key={index} className="p-6 border flex flex-col justify-center border-white/15 rounded-xl bg-[linear-gradient(to_bottom_left,rgb(140,49,255,.4),black)] w-full h-full flex-none">
 
-                  <div className="text-lg tracking-tight">
+
+                  <p className="text-lg tracking-tight">
                     {testimonial.text}
-                  </div>
+                  </p>
 
-                  <div className="flex pt-5 gap-3 flex-wrap">
+                  <div className="flex pt-5 gap-3">
 
                     <Image src={testimonial.avatarImg} alt={testimonial.name} className="rounded-lg h-11 w-11"/>
 
