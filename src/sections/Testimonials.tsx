@@ -48,9 +48,9 @@ export const Testimonials = () => {
        
 
         {/* Outer Div that handles Blur and Scroll */}
-        <div className="pt-10 ">
+        <div className="pt-10 [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
         
-          <div className="flex gap-5 h-[196px] w-[320px] md:h-[248px] md:w-[440px]">
+          <div className="flex gap-5 h-[196px] w-[320px] md:h-[248px] md:w-[440px] ">
 
             {
               testimonials.map((testimonial,index)=>(
