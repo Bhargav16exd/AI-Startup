@@ -12,7 +12,7 @@ const tabs = [
     isNew: false,
     backgroundPositionX: 0,
     backgroundPositionY: 0,
-    backgroundSizeX: 100,
+    backgroundSizeX: 120,
   },
   {
     icon: "/assets/lottie/click.lottie",
