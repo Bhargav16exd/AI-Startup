@@ -62,7 +62,7 @@ export const Testimonials = () => {
             duration: 30,
             ease: "linear"
           }}
-          className="flex gap-5 h-[196px] w-[320px] md:h-[248px] md:w-[440px]">
+          className="pr-1.5 flex gap-5 h-[196px] w-[320px] md:h-[248px] md:w-[440px] md:pr-0">
 
             {
               testimonials.map((testimonial,index)=>(
